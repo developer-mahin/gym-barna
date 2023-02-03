@@ -17,3 +17,79 @@ p,
 span {
   font-family: "Poppins", sans-serif;
 }
+
+.pushup-icon {
+  bottom: 26%;
+  left: 28%;
+}
+
+@media only screen and (max-width: 1540px) {
+  .pushup-icon {
+    left: 11%;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .pushup-icon {
+    left: 15%;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .member {
+    left: -20%;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .pushup-icon {
+    left: -32%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pushup-icon {
+    left: 20%;
+  }
+
+  .member {
+    left: 19%;
+    top: -7%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .pushup-icon {
+    left: -6%;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .pushup-icon {
+    left: 0%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .pushup-icon {
+    left: -6%;
+  }
+  .member {
+    left: 19%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .member {
+    left: -10%;
+    top: 0%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .member {
+    left: -15%;
+    top: 21%;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .member {
+    top: 2%;
+  }
+}

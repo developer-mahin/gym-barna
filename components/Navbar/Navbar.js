@@ -11,9 +11,9 @@ const Navbar = () => {
             <div className='container mx-auto px-6'>
                 <nav className='md:container mx-auto flex justify-between items-center relative border-gray-200 px-2 sm:px-4 py-2.5'>
                     <Link href='/' className=''>
-                        <img src="https://i.ibb.co/591Q9MF/logo-removebg-preview-1.png" className="w-56 drop-shadow-2xl" alt="" />
+                        <img src="https://i.ibb.co/591Q9MF/logo-removebg-preview-1.png" className="w-40 lg:w-56 drop-shadow-2xl" alt="" />
                     </Link>
-                    <ul className={`md:bg-transparent md:flex md:justify-end md:static absolute w-full text-center z-10 flex flex-col p-4 mt-4 border border-gray-100-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white" ${open ? 'top-16 left-0' : 'top-[-360px]'}`}>
+                    <ul className={`md:bg-transparent md:flex md:justify-end md:static absolute w-full text-center z-10 flex flex-col p-4 mt-4 border border-gray-100-lg bg-[#FCF2EF] md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white" ${open ? 'top-16 -left-4 w-1/2' : 'top-[-360px]'}`}>
                         <li>
                             <Link
                                 onClick={() => setOpen(!open)}
@@ -46,7 +46,7 @@ const Navbar = () => {
                         <li>
                             <Link
                                 onClick={() => setOpen(!open)}
-                                href="/login" className={`block md:inline w-1/3 text-center my-2 md:w-auto py-3 px-8 bg-[#264373] rounded-md text-white drop-shadow-2xl  ${open ? "text-left font-medium " : "text-center"}`}
+                                href="/login" className={`block md:inline  text-center my-2 md:w-auto py-3 px-8 bg-[#264373] rounded-md text-white drop-shadow-2xl  ${open ? "text-left font-medium " : "text-center"}`}
                             >Login</Link>
                         </li>
                     </ul>
