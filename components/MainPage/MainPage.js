@@ -1,6 +1,7 @@
 import Banner from "./Banner/Banner";
 import SecondSection from "./secondSection/SecondSection";
 import ThirdSection from "./ThirdSection/ThirdSection";
+import WorkOutSection from "./workOutSection/WorkOutSection";
 
 const MainPage = () => {
     return (
@@ -8,6 +9,7 @@ const MainPage = () => {
             <Banner></Banner>
             <SecondSection></SecondSection>
             <ThirdSection></ThirdSection>
+            <WorkOutSection></WorkOutSection>
         </div>
     );
 };
