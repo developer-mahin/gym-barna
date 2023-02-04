@@ -5,19 +5,22 @@ import { AiFillPlayCircle } from "react-icons/ai";
 
 const Banner = () => {
 
-    const background = {
-        backgroundImage: `url(${"https://i.ibb.co/tK4Bjfy/Ellipse-136-1.png"})`,
-        width: "100%",
-        height: "100%",
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        padding: "71px 0px"
-    };
+    const pushUpPractice = {
+        background: "linear-gradient(45.98deg, #5478EF, #D6DFFF)"
+    }
+
+    const danceIcon = {
+        background: "linear-gradient(45deg, #F8A422, #FEDEAC)"
+    }
+
+    const stretchingIcon = {
+        background: "linear-gradient(50.31deg, #4BACE1, #D8F1FF)"
+    }
+
 
     return (
         <div className="bg-gradient-to-r from-[#FCF2EF] to-[#FEFDFF] lg:pt-[194px] pt-[60px] pb-[60px]">
-            <div className="container mx-auto grid md:grid-cols-2 grid-cols-1 gap-32 items-end px-6">
+            <div className="container grid md:grid-cols-2 grid-cols-1 gap-32 items-end">
                 <div>
                     <h2 className="lg:text-[56px] text-[28px] text-[#262524] font-semibold lg:font-medium lg:leading-[65px] tracking-wide">Healthy in side <br /> <span className="text-[#8382EB]">fresh</span> out side</h2>
                     <div className="py-6">
@@ -61,42 +64,43 @@ const Banner = () => {
                         </div>
                         <div className="absolute bottom-0 right-5">
                             <img src="https://i.ibb.co/8PzxyTD/image-77.png"
-                                className=" drop-shadow-2xl abc" alt="" />
+                                className=" drop-shadow-2xl" alt="" />
                         </div>
                     </div>
-                    <div className="absolute -right-11">
-                        <img src="https://i.ibb.co/5kC708f/Group-3867-removebg-preview.png" className="drop-shadow-2xl" alt="" />
+                    <div
+                        style={stretchingIcon}
+                        className="absolute lg:-right-11 right-0 lg:w-[60px] lg:h-[60px] w-[35px] h-[35px] rounded-full flex justify-center items-center stretchingIcon">
+                        <img src="https://i.ibb.co/wJ1xcB8/Group.png" className="drop-shadow-2xl lg:w-auto w-[12px]" alt="" />
                     </div>
-                    {/* bottom-[80px] left-[56px] */}
-                    <div className="absolute pushup-icon">
-                        <img src="https://i.ibb.co/WHFZqKX/Group-3868-1-removebg-preview.png" className="drop-shadow-2xl w-[70px]" alt="" />
+                    <div
+                        style={pushUpPractice}
+                        className="absolute pushup-icon lg:w-[60px] lg:h-[60px] w-[35px] h-[35px] rounded-full flex justify-center items-center">
+                        <img src="https://i.ibb.co/Rz6Xr8P/Group-1.png" className="drop-shadow-2xl lg:w-auto w-[18px]" alt="" />
                     </div>
-                    <div className="absolute -right-[20px] lg:-right-[61px] bottom-10 bg-white drop-shadow-2xl py-4 px-6 rounded-xl w-[187px]">
+                    <div className="absolute -right-[20px] lg:-right-[61px] bottom-10 bg-white drop-shadow-2xl lg:py-4 py-[10px] lg:px-6 px-[14px] rounded-xl lg:w-[187px] w-[109px]">
                         <div className="text-center">
-                            <div className="flex justify-center items-center">
-                                <img src="https://i.ibb.co/tMMz33f/Ellipse-142.png" className="w-[66px] h-[66px]" alt="" />
+                            <div className="flex justify-center items-center lg:w-[66px] lg:h-[66px] w-[36px] h-[36px] rounded-full bg-[#6765F0] mx-auto">
+
                             </div>
-                            <div>
-                                <h2 className="font-semibold">Zaqky Simorang</h2>
-                                <p className="text-[12px] text-[#262524]">Trainer</p>
+                            <div className="pt-[11px]">
+                                <h2 className="font-semibold lg:text-base text-[10px]">Zaqky Simorang</h2>
+                                <p className="lg:text-[12px] text-[7px] text-[#262524]">Trainer</p>
                             </div>
                         </div>
                     </div>
-                    <div className="absolute top-5 lg:-top-16 left-0 lg:left-16 bg-white drop-shadow-2xl py-[10px] px-5 rounded-xl flex items-center w-[150px] lg:w-[187px] member">
-                        <div>
-                            <img src="https://i.ibb.co/WDjJkPy/Group-3865-removebg-preview.png" alt="" />
+                    <div className="absolute top-5 lg:-top-16 left-0 lg:left-16 bg-white drop-shadow-2xl lg:py-[10px] py-[5px] lg:px-5 px-3 rounded-xl flex items-center gap-[14px] w-[109px] lg:w-[187px] member">
+                        <div
+                            style={danceIcon}
+                            className="lg:w-[60px] lg:h-[60px] w-[35px] h-[35px] rounded-full flex justify-center items-center"
+                        >
+                            <img src="https://i.ibb.co/S6zXfJQ/dancer-motion-1.png" className="drop-shadow-2xl lg:w-auto w-[18px]" alt="" />
                         </div>
                         <div>
-                            <h2 className="font-semibold">150+</h2>
-                            <p className="text-[12px] text-[#262524]">Members</p>
+                            <h2 className="font-semibold lg:text-base text-[10px]">150+</h2>
+                            <p className="lg:text-[12px] text-[7px] text-[#262524]">Members</p>
                         </div>
                     </div>
                 </div>
-
-
-                {/* <div>
-                    <img src="https://i.ibb.co/NFS5tM7/Group-4227.png" className="w-full h-[580px]" alt="" />
-                </div> */}
             </div>
         </div>
     );

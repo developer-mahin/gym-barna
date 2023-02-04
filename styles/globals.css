@@ -18,6 +18,12 @@ span {
   font-family: "Poppins", sans-serif;
 }
 
+.container {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0px 24px;
+}
+
 .pushup-icon {
   bottom: 26%;
   left: 28%;
@@ -77,19 +83,33 @@ span {
 
 @media only screen and (max-width: 414px) {
   .member {
-    left: -10%;
+    left: -3%;
     top: 0%;
   }
 }
 
 @media only screen and (max-width: 400px) {
   .member {
-    left: -15%;
+    left: -4%;
     top: 21%;
   }
 }
 @media only screen and (max-width: 390px) {
   .member {
     top: 2%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .member {
+    top: 22%;
+    left: -21px;
+  }
+  .stretchingIcon {
+    top: 25%;
+    right: -8px;
+  }
+  .pushup-icon {
+    bottom: 20%;
   }
 }
