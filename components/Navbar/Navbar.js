@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useState } from "react";
-import { HiMenuAlt3, HiX } from "react-icons/hi";
+import { HiX } from "react-icons/hi";
+import { HiBars3 } from "react-icons/hi2";
 
 const Navbar = () => {
 
@@ -10,8 +11,8 @@ const Navbar = () => {
         <div className="bg-gradient-to-r from-[#FCF2EF] to-[#FEFDFF]">
             <div className='container mx-auto px-6'>
                 <nav className='md:container mx-auto flex justify-between items-center relative border-gray-200 px-2 sm:px-4 py-2.5'>
-                    <Link href='/' className=''>
-                        <img src="https://i.ibb.co/591Q9MF/logo-removebg-preview-1.png" className="w-40 lg:w-56 drop-shadow-2xl" alt="" />
+                    <Link href='/' className='flex items-center gap-1'>
+                        <h3 className="text-xl w-[56px] h-[35px] text-white bg-[#6765F0] rounded-[10px] text-center px-[6px] py-[3px]">Gym</h3> <h4 className="text-xl">baran</h4>
                     </Link>
                     <ul className={`md:bg-transparent md:flex md:justify-end md:static absolute w-full text-center z-10 flex flex-col p-4 mt-4 border border-gray-100-lg bg-[#FCF2EF] md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white" ${open ? 'top-16 -left-4 w-1/2' : 'top-[-360px]'}`}>
                         <li>
@@ -54,7 +55,7 @@ const Navbar = () => {
                         {
                             open ?
                                 <HiX onClick={() => setOpen(!open)} className="h-9 w-9 text-black cursor-pointer" /> :
-                                <HiMenuAlt3 onClick={() => setOpen(!open)} className="h-9 w-9 text-black cursor-pointer" />
+                                <HiBars3  onClick={() => setOpen(!open)} className="h-9 w-9 text-black cursor-pointer"/>
                         }
                     </div>
                 </nav>

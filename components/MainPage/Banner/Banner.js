@@ -24,20 +24,20 @@ const Banner = () => {
                 <div>
                     <h2 className="lg:text-[56px] text-[28px] text-[#262524] font-semibold lg:font-medium lg:leading-[65px] tracking-wide">Healthy in side <br /> <span className="text-[#8382EB]">fresh</span> out side</h2>
                     <div className="py-6">
-                        <p className="text-[#262524] lg:w-[492px]">Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.</p>
+                        <p className="text-[#262524] text-opacity-[0.6] lg:text-base text-[12px] lg:w-[492px]">Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.</p>
                     </div>
                     <div className="grid grid-cols-2 gap-5 lg:gap-9">
-                        <button className="flex items-center gap-1 lg:gap-20 bg-[#264373] text-white py-4 px-4 lg:px-6 rounded-xl drop-shadow-2xl">
-                            <span className="text-sm lg:text-base">Get started</span>
+                        <button className="flex items-center gap-7 lg:gap-20 bg-[#264373] text-white py-4 px-4 lg:px-6 rounded-xl drop-shadow-2xl">
+                            <span className="text-[12px] lg:text-base">Get started</span>
                             <IoIosArrowDroprightCircle className="text-xl lg:text-3xl" />
                         </button>
                         <button className="flex items-center bg-[#fff] gap-1 lg:gap-4 py-4 px-4 lg:px-6 rounded-xl drop-shadow-2xl">
                             <AiFillPlayCircle className="text-xl lg:text-3xl text-[#264373]"></AiFillPlayCircle>
-                            <span className="text-[#264373] text-sm lg:text-base">Learn more</span>
+                            <span className="text-[#264373] text-[12px] lg:text-base">Learn more</span>
                         </button>
                     </div>
                     <div className="mt-[51px]">
-                        <p className="mb-[29px]">Brands: </p>
+                        <p className="mb-[29px] lg:text-base text-[12px]">Brands: </p>
                         <div className="grid grid-cols-4 gap-6 lg:gap-[50px] items-center">
                             <div>
                                 <img src="https://i.ibb.co/vZmT6tD/Mask-Group.png" alt="" />

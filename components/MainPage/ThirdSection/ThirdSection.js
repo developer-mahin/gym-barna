@@ -10,7 +10,7 @@ const ThirdSection = () => {
                         <img src="https://i.ibb.co/k8zhmTV/crucified-pose.png" alt="" />
                     </div>
                     <div className='col-span-2'>
-                        <p className='text-[#FFFFFF] text-xl font-semibold'>Get that 11 line in 30 days</p>
+                        <p className='text-[#FFFFFF] lg:text-xl text-base font-semibold'>Get that 11 line in 30 days</p>
                         <p className='flex items-center gap-4 text-[#fff] text-opacity-[0.5] lg:mt-4 mt-2'>
                             <span>Learn more</span>
                             <AiOutlineArrowRight />
@@ -22,7 +22,7 @@ const ThirdSection = () => {
                         <img src="https://i.ibb.co/VYHBjgm/dancer-balance-posture-on-one-leg.png" alt="" />
                     </div>
                     <div className='col-span-2'>
-                        <p className='text-[#FFFFFF] text-xl font-semibold'>14 Days
+                        <p className='text-[#FFFFFF] lg:text-xl text-base font-semibold'>14 Days
                             sherd challenge</p>
                         <p className='flex items-center gap-4 text-[#fff] text-opacity-[0.5] lg:mt-4 mt-2'>
                             <span>Learn more</span>
@@ -35,7 +35,7 @@ const ThirdSection = () => {
                         <img src="https://i.ibb.co/Z6qQWk1/dancer-motion.png" alt="" />
                     </div>
                     <div className='col-span-2'>
-                        <p className='text-[#FFFFFF] text-xl font-semibold'>Get flat belly in 30 days</p>
+                        <p className='text-[#FFFFFF] lg:text-xl text-base font-semibold'>Get flat belly in 30 days</p>
                         <p className='flex items-center gap-4 text-[#fff] text-opacity-[0.5] lg:mt-4 mt-2'>
                             <span>Learn more</span>
                             <AiOutlineArrowRight />
